@@ -8,10 +8,15 @@
 
     <ItemGroup>
       <Content Remove="Pages\Shared\reportes.cshtml" />
+      <Content Remove="Pages\cliente.cshtml" />
+      <Content Remove="Pages\reportes.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Remove="Pages\reportes.cs" />
+      <Compile Remove="Pages\reportes.cshtml.cs" />
+      <Compile Remove="Pages\reporte.cshtml.cs" />
+      <Compile Remove="Pages\cliente.cshtml.cs" />
     </ItemGroup>
 
 </Project>
