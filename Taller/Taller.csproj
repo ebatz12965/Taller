@@ -6,4 +6,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Remove="Pages\Shared\reportes.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Pages\reportes.cs" />
+    </ItemGroup>
+
 </Project>
